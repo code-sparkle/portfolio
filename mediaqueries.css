@@ -1,9 +1,4 @@
 @media screen and (max-width: 1400px) {
-  #profile {
-    height: 83vh;
-    margin-bottom: 5rem;
-  }
-
   .about-containers {
     flex-wrap: wrap;
   }
@@ -46,11 +41,6 @@
     height: 275px;
     margin: 0 auto 2rem;
   }
-
-  .about-containers {
-    margin-top: 0;
-  }
-
 }
 
 @media screen and (max-width: 600px) {
@@ -61,8 +51,8 @@
   }
 
   #profile {
-    height: 83vh;
-    margin-bottom: 0;
+    height: auto;
+    margin-bottom: 4rem;
   }
 
   article {

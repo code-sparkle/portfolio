@@ -17,7 +17,7 @@
     <div>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -34,7 +34,7 @@
       </div>
       <div class="menu-links">
         <li><a href="#about" onclick="toggleMenu()">About</a></li>
-        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
         <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
         <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
       </div>
@@ -48,7 +48,7 @@
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Shannon Li</h1>
+        <h1 class="name">Shannon Li</h1>
         <p class="section__text__p2">IT • Software • ML</p>
         <div class="btn-container">
           <button class="btn btn-color" onclick="window.open('')">Download CV</button>
@@ -66,9 +66,10 @@
 
   <section id="about">
     <p class="section__text__p1">Get To Know More</p>
-    <h1 class="title">About Me</h1>
+    <div class="section-title">
+      <h1 class="title">About Me</h1>
+    </div>
     <div class="section-container">
-
       <div class="about-details-container">
         <div class="about-containers">
           <div class="details-container">
@@ -88,78 +89,81 @@
           </p>
         </div>
       </div>
-
-      <img src="./assets/arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href='#experience'">
   </section>
 
-  <section id="experience">
+  <section id="skills">
     <p class="section__text__p1">Explore My</p>
-    <h1 class="title">Experience</h1>
-    <div class="experience-details-container">
-      <div class="about-containers">
-        <div class="details-container">
-          <h2 class="experience-subtitle">Software Engineer</h2>
-          <div class="article-container">
-            <article>
-              <img src="./assets/checkmark.png" alt="checkmark-icon" class="icon">
-              <div>
-                <h3>HTML</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="checkmark-icon" class="icon">
-              <div>
-                <h3>HTML</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="checkmark-icon" class="icon">
-              <div>
-                <h3>HTML</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="checkmark-icon" class="icon">
-              <div>
-                <h3>HTML</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="checkmark-icon" class="icon">
-              <div>
-                <h3>CSS</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="checkmark-icon" class="icon">
-              <div>
-                <h3>HTML</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-          </div>
+    <div class="section-title">
+      <h1 class="title">Skills</h1>
+    </div>
+    <div class="skills-details-container">
+      <div class="skill-category">
+
+        <!-- Development -->
+        <h2 class="skills-subtitle">Development</h2>
+        <div class="skill-tags">
+          <span class="skill-tag">
+            <img src="./assets/skills-icon/html.png" alt="HTML">
+            HTML
+          </span>
+          <span class="skill-tag">
+            <img src="./assets/skills-icon/css.png" alt="CSS">
+            CSS
+          </span>
+          <span class="skill-tag">
+            <img src="./assets/skills-icon/python.png" alt="Python">
+            Python
+          </span>
+          <span class="skill-tag">
+            <img src="./assets/skills-icon/java.png" alt="Java">
+            Java
+          </span>
+          <span class="skill-tag">
+            <img src="./assets/skills-icon/sql.png" alt="PL/SQL">
+            PL/SQL
+          </span>
+        </div>
+
+      </div>
+
+      <!-- Tools -->
+      <div class="skill-category">
+        <h2 class="skills-subtitle">Tools & Platforms</h2>
+        <div class="skill-tags">
+          <span class="skill-tag">
+            <img src="./assets/skills-icon/git.png" alt="Git">
+            Git
+          </span>
+          <span class="skill-tag">
+            <img src="./assets/github.png" alt="GitHub">
+            GitHub
+          </span>
+          <span class="skill-tag">
+            <img src="./assets/skills-icon/anaconda.png" alt="Anaconda">
+            Anaconda
+          </span>
+          <span class="skill-tag">
+            <img src="./assets/skills-icon/linux.png" alt="Linux">
+            Linux
+          </span>
         </div>
       </div>
-    </div>
 
-    <img src="./assets/arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href='#projects'">
+    </div>
   </section>
 
   <section id="projects">
     <p class="section__text__p1">Browse My Recent</p>
-    <h1 class="title">Projects</h1>
-    <div class="experience-details-container">
+    <div class="section-title">
+      <h1 class="title">Projects</h1>
+    </div>
+    <div class="skills-details-container">
       <div class="about-containers">
         <div class="details-container color-container">
           <div class="article-container">
             <img src="./assets/project1.png" alt="project1" class="project-img">
           </div>
-          <h2 class="experience-subtitle project-title">Project One</h2>
+          <h2 class="skills-subtitle project-title">Project One</h2>
           <div class="btn-container">
             <button class="btn btn-color project-bth" onclick="location.href='https://github.com/'">
               GitHub
@@ -170,7 +174,7 @@
           <div class="article-container">
             <img src="./assets/project1.png" alt="project1" class="project-img">
           </div>
-          <h2 class="experience-subtitle project-title">Project Two</h2>
+          <h2 class="skills-subtitle project-title">Project Two</h2>
           <div class="btn-container">
             <button class="btn btn-color project-bth" onclick="location.href='https://github.com/'">
               GitHub
@@ -181,7 +185,7 @@
           <div class="article-container">
             <img src="./assets/project1.png" alt="project1" class="project-img">
           </div>
-          <h2 class="experience-subtitle project-title">Project Three</h2>
+          <h2 class="skills-subtitle project-title">Project Three</h2>
           <div class="btn-container">
             <button class="btn btn-color project-bth" onclick="location.href='https://github.com/'">
               GitHub
@@ -190,13 +194,13 @@
         </div>
       </div>
     </div>
-
-    <img src="./assets/arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href='#contacts'">
   </section>
 
   <section id="contact">
     <p class="section__text__p1">Get in Touch</p>
-    <h1 class="title">Contact Me</h1>
+    <div class="sectiion-title">
+      <h1 class="title">Contact Me</h1>
+    </div>
     <div class="contact-info-upper-container">
       <div class="contact-info-container">
         <img src="assets/email.png" alt="email" class="icon contact-icon">
