@@ -423,11 +423,21 @@ ul.timeline li::before {
   text-align: left;
 }
 
-.timeline-content p {
-  font-size: 0.7rem;
+.timeline-text {
+  font-size: 0.75rem;
   color: rgb(85, 85, 85);
 }
 
+.timeline-icon {
+  cursor: pointer;
+  height: 0.7rem;
+  vertical-align: baseline;
+}
+
+.hightlight-text {
+  font-weight: bold;
+  color: #003153;
+}
 
 /* SKILLS SECTION */
 
