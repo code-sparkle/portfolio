@@ -358,6 +358,7 @@ section {
 }
 
 .text-container p {
+  font-size: 0.9rem;
   grid-row: 2;
 }
 
@@ -425,7 +426,7 @@ ul.timeline li::before {
 
 .timeline-text {
   font-size: 0.75rem;
-  color: rgb(85, 85, 85);
+  color: #858585;
 }
 
 .timeline-icon {
